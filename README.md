@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [News Homepage](https://news-jay.netlify.app/)
-- Live Site URL: [News Homepage](https://news-jay.netlify.app/)
+- Solution URL: [https://news-jay.netlify.app/](https://news-jay.netlify.app/)
+- Live Site URL: [https://news-jay.netlify.app/](https://news-jay.netlify.app/)
 
 ### Built with
 
