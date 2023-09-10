@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="container header">
+      <a href="#" aria-label="News"
+        ><img src="./public/assets/images/logo.svg"
+      /></a>
+      <a href="#" aria-label="Navigation Menu"
+        ><img class="hamburger" src="./public/assets/images/icon-menu.svg"
+      /></a>
+      <nav role="navigation" class="navigation">
+        <ul role="list" class="nav-items font-regular fs-200">
+          <li>
+            <a class="link" href="#">Home</a>
+          </li>
+          <li>
+            <a class="link" href="#">New</a>
+          </li>
+          <li>
+            <a class="link" href="#">Popular</a>
+          </li>
+          <li>
+            <a class="link" href="#">Trending</a>
+          </li>
+          <li>
+            <a class="link" href="#">Categories</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main container">
+      <section class="hero">
+        <img
+          class="hero-img"
+          src="./public/assets/images/image-web-3-desktop.jpg"
+        />
+        <div class="hero-text">
+          <h1 class="hero-heading color-black font-black fs-400">
+            The Bright Future of Web 3.0?
+          </h1>
+          <div class="hero-subtext">
+            <p class="color-gray--200 fs-200">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a class="btn-red font-bold" href="#"> Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <article class="news">
+        <h1 class="color-orange font-bold fs-400">New</h1>
+        <article class="articles-box">
+          <h2 class="color-white font-bold fs-300">
+            Hydrogen VS Electric Cars
+          </h2>
+          <p class="color-gray--100 font-regular fs-200">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </article>
+        <article class="articles-box articles-mid">
+          <h3 class="color-white font-bold fs-300">
+            The Downsides of AI Artistry
+          </h3>
+          <p class="color-gray--100 font-regular fs-200">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </article>
+        <article class="articles-box">
+          <h4 class="color-white font-bold fs-300">Is VC Funding Drying Up?</h4>
+          <p class="color-gray--100 font-regular fs-200">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </article>
+
+      <section class="card">
+        <div class="card-div">
+          <img src="./public/assets/images/image-retro-pcs.jpg" />
+          <div>
+            <span class="color-gray--100 font-black fs-300">01</span>
+            <p class="color-black font-black fs-100">Reviving Retro PCs</p>
+            <p class="color-gray--200 fs-100">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="card-div">
+          <img src="./public/assets/images/image-top-laptops.jpg" />
+          <div>
+            <span class="color-gray--100 font-black fs-200">02</span>
+            <p class="color-black font-black fs-100">Top 10 Laptops of 2022</p>
+            <p class="color-gray--200 fs-100">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="card-div">
+          <img src="./public/assets/images/image-gaming-growth.jpg" />
+          <div>
+            <span class="color-gray--100 font-black fs-200">03</span>
+            <p class="color-black font-black fs-100">The Growth of Gaming</p>
+            <p class="color-gray--200 fs-100">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
